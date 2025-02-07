@@ -1,7 +1,7 @@
 name: Ejecutar Bot (Horario COL Optimizado)
 on:
   schedule:
-    - cron: "30 5-23 * * *"
+    - cron: "*/30 * * * *"
   workflow_dispatch:
 
 jobs:
